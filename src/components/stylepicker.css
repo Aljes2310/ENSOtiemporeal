@@ -1,0 +1,10 @@
+/* styles.css */
+.custom-date-picker {
+    width: 200; /* Ancho personalizado */
+    height: 40px; /* Alto personalizado */
+    font-size: 16px; /* Tamaño de fuente personalizado */
+    text-align: center; /* Centrar horizontalmente el texto */
+  display: flex; /* Utiliza flexbox para centrar verticalmente el texto */
+  align-items: center; /* Centrar verticalmente el texto */
+  justify-content: center; /* Centrar horizontalmente el texto */
+  }
