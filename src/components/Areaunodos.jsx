@@ -72,7 +72,10 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 @media only screen and (max-width:760px){
-
+  display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 }
 `
 const Titulo = styled.h1`
@@ -84,8 +87,6 @@ const Titulo = styled.h1`
   @media only screen and (max-width:760px){
   font-size:40px;
   margin-left: 40px;
-  padding:15px
-
 }
 
 `
@@ -126,8 +127,8 @@ const Mapa=styled.img`
 height: 650px;
 width: 900px;
 @media only screen and (max-width:760px){
-  height: 550px;
-  width: 500px;
+  height: 500px;
+  width: 450px;
   }
 
 `
@@ -137,7 +138,7 @@ font-size: 40px;
 margin-top: 30px;
 font-family: monospace;
 @media only screen and (max-width:760px){
-  font-size:25px
+  font-size:22px
   }
 `
 const Columnalinea=styled.div`
@@ -168,8 +169,8 @@ height: 600px;
  width:850px;
  margin-top: 50px;
  @media only screen and (max-width:760px){
-  height: 500px;
-  width: 380px;
+  height: 450px;
+  width: 350px;
   
 }
  `
