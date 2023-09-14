@@ -18,8 +18,8 @@ const Logosite = styled.div`
 
 `
 const Logo = styled.img`
-height: 100px;
-  width:100px;
+  height: 80px;
+  width:80px;
   background-color: #00cd67;
   border-radius: 50%;
   @media only screen and (max-width:760px) {

@@ -75,7 +75,7 @@ justify-content: center;
 }
 `
 const Titulo = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 40px;
   color:black;
   font-family: bold;
@@ -96,7 +96,7 @@ margin-top: 30px;
 `
 
 const Texto=styled.p`
-    font-size: 30px;
+    font-size: 25px;
   color:black;
   font-family: 'monospace';
   text-align:center;
@@ -126,11 +126,12 @@ const Columnamapa=styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
+justify-content: center;
 width: 50%;
 `
 const Mapa=styled.img`
-height: 650px;
-width: 900px;
+height: 500px;
+width: 800px;
 @media only screen and (max-width:760px){
   height: 500px;
   width: 450px;
@@ -139,7 +140,7 @@ width: 900px;
 `
 
 const Promedio =styled.p`
-font-size: 40px;
+font-size: 30px;
 margin-top: 30px;
 font-family: monospace;
 @media only screen and (max-width:760px){
@@ -168,8 +169,8 @@ gap:50px;
 
 const CuadroLinea=styled.div`
 display:flex;
-height: 600px;
- width:850px;
+height: 450px;
+ width:650px;
  margin-top: 50px;
  @media only screen and (max-width:760px){
   height: 450px;

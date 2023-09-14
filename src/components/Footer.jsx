@@ -13,7 +13,7 @@ const Section = styled.section`
 const Pie = styled.div`
    bottom:0;
    width:100%;
-   height:200px;   /* Height of the footer */
+   height:130px;   /* Height of the footer */
    background: #111;
    display: flex;
    flex-direction: row;
@@ -39,7 +39,7 @@ const Texto=styled.div`
 
 const Descripcion=styled.p`
 font-family: monospace;
-font-size: 40px;
+font-size: 30px;
 color: white;
 margin-left: 100px;
 @media only screen and (max-width:760px){

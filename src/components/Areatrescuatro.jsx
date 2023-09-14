@@ -79,7 +79,7 @@ justify-content: center;
 }
 `
 const Titulo = styled.h1`
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 40px;
   color:black;
   font-family: bold;
@@ -92,8 +92,6 @@ const Titulo = styled.h1`
 
 `
 
-
-
 const CuadroTexto=styled.div`
 display:flex;
 flex-direction:column;
@@ -102,7 +100,7 @@ margin-top: 30px;
 `
 
 const Texto=styled.p`
-    font-size: 30px;
+    font-size: 25px;
   color:black;
   font-family: 'monospace';
   text-align:center;
@@ -120,7 +118,7 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 gap:100px;
-margin-top: 40px;
+margin-top: 50px;
 @media only screen and (max-width:760px){
   flex-direction: column;
   text-align:center;
@@ -134,15 +132,15 @@ const Columnamapa=styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 50%;
+justify-content: center;
 @media only screen and (max-width:760px){
   width: 60%;
   }
 
 `
 const Mapa=styled.img`
-height: 650px;
-width: 900px;
+height: 500px;
+width: 700px;
 margin-top: 20px;
 @media only screen and (max-width:760px){
   height: 250px;
@@ -153,7 +151,7 @@ margin-top: 20px;
 `
 
 const Promedio =styled.p`
-font-size: 40px;
+font-size: 30px;
 margin-top: 30px;
 font-family: monospace;
 @media only screen and (max-width:760px){
@@ -166,6 +164,7 @@ display:flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 30px;
+justify-content: center;
 @media only screen and (max-width:760px){
   justify-content: center;
   width: 80%;
@@ -183,8 +182,8 @@ gap:50px;
 
 const CuadroLinea=styled.div`
 display:flex;
-height: 600px;
- width:850px;
+height: 450px;
+ width:600px;
  margin-top: 50px;
  @media only screen and (max-width:760px){
   height: 500px;
