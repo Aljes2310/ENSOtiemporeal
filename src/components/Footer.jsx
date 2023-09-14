@@ -22,6 +22,7 @@ const Pie = styled.div`
    gap:100px;
   @media only screen and (max-width:760px){
     width:100%;
+    height: 200px;
     gap:0px;
     flex-direction: column;
   }
@@ -91,9 +92,9 @@ function Footer() {
             </Texto>
 
             <Icons>
-            <Icon href="https://www.linkedin.com/in/alfredo-alvarado-espinoza-31058422a/" target="_blank"><AiFillLinkedin size={70}/></Icon>
-            <Icon href="https://github.com/Aljes2310?tab=repositories" target="_blank"><BsGithub  size={70}/> </Icon>
-            <Icon href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=aljes2310@gmail.com" target="_blank"><AiOutlineMail  size={70}/></Icon>
+            <Icon href="https://www.linkedin.com/in/alfredo-alvarado-espinoza-31058422a/" target="_blank"><AiFillLinkedin size={50}/></Icon>
+            <Icon href="https://github.com/Aljes2310?tab=repositories" target="_blank"><BsGithub  size={50}/> </Icon>
+            <Icon href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=aljes2310@gmail.com" target="_blank"><AiOutlineMail  size={50}/></Icon>
             </Icons>
         </Pie>
         <Footerbottom></Footerbottom>
