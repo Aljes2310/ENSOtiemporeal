@@ -15,6 +15,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
       <Route path="/" element={<Areaunodos/>}></Route>
+      <Route path="/areaunodos" element={<Areaunodos/>}></Route>
         <Route path="/areatrescuatro" element={<Areatrescuatro/>}></Route>
       </Routes>
      <Footer></Footer>
