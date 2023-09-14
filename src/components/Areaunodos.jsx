@@ -72,10 +72,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 @media only screen and (max-width:760px){
-  display:flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
 }
 `
 const Titulo = styled.h1`
@@ -91,12 +87,20 @@ const Titulo = styled.h1`
 
 `
 
+
+const CuadroTexto=styled.div`
+display:flex;
+flex-direction:column;
+gap:5px;
+margin-top: 30px;
+`
+
 const Texto=styled.p`
     font-size: 30px;
   color:black;
   font-family: 'monospace';
+  text-align:center;
   font-weight: 500;
-  padding:50px;
   @media only screen and (max-width:760px){
   font-size: 20px;
   text-align:center;
@@ -109,6 +113,7 @@ display:flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
+margin-top: 40px;
 @media only screen and (max-width:760px){
   flex-direction: column;
   text-align:center;
@@ -247,9 +252,10 @@ function Areaunodos() {
     <Section id="areaunodos">
         <Container>
           <Titulo>Imagenes y Datos Area Niño 1 + 2</Titulo>
-          <Texto> Imagenes  y datos diarias de TSM del area niño 1+2 (80W°-90°W, 10°S-0°).
-            Selecciona la fecha de la imagen que te gustaria ver.  Fuente de datos: Copernicus 
-          </Texto>
+          <CuadroTexto> 
+            <Texto>Imagenes  y datos diarias de TSM del area niño 1+2 (80W°-90°W, 10°S-0°). Fuente de datos: Copernicus CMEMS</Texto>
+             <Texto>Selecciona la fecha de la imagen que te gustaria ver.</Texto>
+          </CuadroTexto>
 
 
           <Body>

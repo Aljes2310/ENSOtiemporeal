@@ -92,12 +92,21 @@ const Titulo = styled.h1`
 
 `
 
+
+
+const CuadroTexto=styled.div`
+display:flex;
+flex-direction:column;
+gap:5px;
+margin-top: 30px;
+`
+
 const Texto=styled.p`
     font-size: 30px;
   color:black;
   font-family: 'monospace';
+  text-align:center;
   font-weight: 500;
-  padding:50px;
   @media only screen and (max-width:760px){
   font-size: 20px;
   text-align:center;
@@ -111,9 +120,11 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 gap:100px;
+margin-top: 40px;
 @media only screen and (max-width:760px){
   flex-direction: column;
   text-align:center;
+  margin-top: 40px;
   }
 
 `
@@ -256,10 +267,10 @@ function Areatrescuatro() {
     <Section id="areatrescuatro">
         <Container>
           <Titulo>Imagenes y Datos Area Niño 3 + 4</Titulo>
-          <Texto> Imagenes  y datos diarias de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N).
-            Selecciona la fecha de la imagen que te gustaria ver. Fuente de datos: Copernicus 
-          </Texto>
-
+          <CuadroTexto> 
+            <Texto>Imagenes  y datos diarias de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N°). Fuente de datos: Copernicus CMEMS</Texto>
+             <Texto>Selecciona la fecha de la imagen que te gustaria ver.</Texto>
+          </CuadroTexto>
 
           <Body>
               <Columnamapa>
