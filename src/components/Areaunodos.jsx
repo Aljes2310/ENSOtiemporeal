@@ -249,7 +249,7 @@ function Areaunodos() {
     <Section id="areaunodos">
         <Container>
           <Titulo>Imagenes y Datos Area Niño 1 + 2</Titulo>
-          <Texto> Imagenes  y datos diarias de TSM del area niño 1+2 (90°-80°W, 10°S-0°).
+          <Texto> Imagenes  y datos diarias de TSM del area niño 1+2 (80W°-90°W, 10°S-0°).
             Selecciona la fecha de la imagen que te gustaria ver.  Fuente de datos: Copernicus 
           </Texto>
 

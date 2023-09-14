@@ -256,7 +256,7 @@ function Areatrescuatro() {
     <Section id="areatrescuatro">
         <Container>
           <Titulo>Imagenes y Datos Area Niño 3 + 4</Titulo>
-          <Texto> Imagenes  y datos diarias de TSM del area niño 3+4 (120°-170°W, 5°N-5°S).
+          <Texto> Imagenes  y datos diarias de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N).
             Selecciona la fecha de la imagen que te gustaria ver. Fuente de datos: Copernicus 
           </Texto>
 
