@@ -8,3 +8,11 @@
   align-items: center; /* Centrar verticalmente el texto */
   justify-content: center; /* Centrar horizontalmente el texto */
   }
+
+  @media screen and (max-width: 780px){
+    
+    /* hamburger */
+    .custom-date-picker {
+      width: 120px;
+    }
+  }
