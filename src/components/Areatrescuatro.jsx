@@ -132,6 +132,7 @@ width: 50%;
 const Mapa=styled.img`
 height: 650px;
 width: 900px;
+margin-top: 20px;
 @media only screen and (max-width:760px){
   height: 250px;
   width: 380px;
@@ -146,14 +147,13 @@ margin-top: 30px;
 font-family: monospace;
 @media only screen and (max-width:760px){
   font-size:20px
+
   }
 `
 const Columnalinea=styled.div`
 display:flex;
 flex-direction: column;
 align-items: center;
-width: 100%;
-height: 100%;
 margin-bottom: 30px;
 @media only screen and (max-width:760px){
   justify-content: center;
