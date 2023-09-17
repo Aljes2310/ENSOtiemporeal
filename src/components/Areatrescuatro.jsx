@@ -232,7 +232,7 @@ function Areatrescuatro() {
     const resp = await supabase.from('area3+4').select()
     const datos=resp["data"]
     //const data_parseada=datos.forEach((item) => item.date = new Date(item.time))
-    const fechaInicio = startDate.setDate(startDate.getDate()-1);
+    const fechaInicio = startDate.setDate(startDate.getDate());
     const fechaFin = endDate;
     
     //filtro por fechas
