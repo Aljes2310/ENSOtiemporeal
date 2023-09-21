@@ -18,8 +18,8 @@ const Logosite = styled.div`
 
 `
 const Logo = styled.img`
-  height: 80px;
-  width:80px;
+  height: 65px;
+  width:65px;
   background-color: #00cd67;
   border-radius: 50%;
   @media only screen and (max-width:760px) {
@@ -57,9 +57,10 @@ function Navbar() {
 
           {/* logo */}
           <Logosite>
-            <Logo src="/icono.jpg"></Logo>
+            <a href='/'><Logo src="/icono.jpg"></Logo></a>
         </Logosite>
 
+          {/* 'https://wa.me/+51929076660'  target=_blank*/}
 
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
@@ -70,10 +71,10 @@ function Navbar() {
             </li>
       
             <li onClick={removeActive}>
-              <Link to={'https://wa.me/+51929076660'} target="_blank" className={`${styles.navLink}`}>Contacto</Link>
+              <Link to='/vientos' className={`${styles.navLink}`}>Vientos</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='#home' className={`${styles.navLink}`}>Futuras Secciones</a>
+              <a href='/sla' className={`${styles.navLink}`}>Anomalia de Nivel del Mar</a>
             </li>
           </ul>
 

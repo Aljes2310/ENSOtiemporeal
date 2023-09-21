@@ -7,14 +7,11 @@
     box-sizing: border-box;
   }
   
-  ul {
-    list-style: none;
-  }
-  
-  a {
+  .navLink {
     text-decoration: none;
-    color: black;
-    font-size: 27px;
+    color: darkblue;
+    font-weight: 600;
+    font-size: 23px;
   }
   
   /* navbar */
@@ -25,7 +22,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    min-height: 80px;
+    height: 80px;
   }
   
   
@@ -35,6 +32,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 60px;
+    list-style: none;
   }
   
   /* media queries */
@@ -82,6 +80,7 @@
       transition: 0.7s ease-in-out;
       background-color: #00cd33;
       padding: 10px;
+      z-index: 100;
     }
   
     .navMenu.active{

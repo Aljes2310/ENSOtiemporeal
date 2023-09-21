@@ -7,6 +7,8 @@
   display: flex; /* Utiliza flexbox para centrar verticalmente el texto */
   align-items: center; /* Centrar verticalmente el texto */
   justify-content: center; /* Centrar horizontalmente el texto */
+  z-index: 9; /* para solucionar el problema de overlaping con otros componentes,
+  colocar mayor z-index a los otros componentes */
   }
 
   @media screen and (max-width: 780px){

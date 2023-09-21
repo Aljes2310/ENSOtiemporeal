@@ -86,7 +86,7 @@ const Titulo = styled.h1`
   font-weight: 700;
   @media only screen and (max-width:760px){
   font-size:40px;
-  margin-left: 40px;
+  text-align: center;
 
 }
 
@@ -194,12 +194,11 @@ height: 450px;
 
 
 function Areatrescuatro() {
-
   const today= new Date()
   const enddatedefault= today.setDate(today.getDate()+5)
-  const startdatedefault= today.setDate(today.getDate()-5)
+  const startdatedefault= today.setDate(today.getDate()-15)
   //fecha hook
-  const [mapaDate, SetmapaDate] = useState(today);
+  const [mapaDate, SetmapaDate] = useState(new Date());
   const [datos_mapa, setdatos_mapa]=useState([]);
   const [datos_linea, setdatos_linea] = useState([]);
   const [startDate, setStartDate] = useState(new Date(startdatedefault));
@@ -209,12 +208,14 @@ function Areatrescuatro() {
 //renderiza la imagen del mapa
   useEffect(() => {
     const fetchmapa= async () => {
-
-    let tzoffset = (new Date()).getTimezoneOffset() * 60000
+      let tzoffset = (new Date()).getTimezoneOffset() * 60000
     const formattedDate = (new Date(mapaDate-tzoffset)).toISOString().substring(0, 10)  
 
     const resp = await supabase.from('area3+4').select().eq('time',formattedDate)
     const dato_exacto=resp["data"][0]
+    if (dato_exacto === undefined){
+      return <div> IMAGEN NO DISPONIBLE</div>
+    }
     setdatos_mapa(dato_exacto)
     /* 
     const index_needed=array_datos.findIndex(({ time }) => time === formattedDate)
@@ -231,18 +232,20 @@ function Areatrescuatro() {
     const dataget = async () => {
     const resp = await supabase.from('area3+4').select()
     const datos=resp["data"]
+   
+    let tzoffset = (new Date()).getTimezoneOffset() * 60000
     //const data_parseada=datos.forEach((item) => item.date = new Date(item.time))
-    const fechaInicio = startDate.setDate(startDate.getDate());
-    const fechaFin = endDate;
+    const fechaInicio = new Date(startDate - tzoffset) ;
+    const fixfechainicio = fechaInicio.setDate(fechaInicio.getDate()-1);
+    const fechaFin = endDate-tzoffset;
     
     //filtro por fechas
     const elementosFiltrados = datos.filter(item => {
     const fechaItem = new Date(item.time);
-    return fechaItem >= fechaInicio && fechaItem <= fechaFin;
+    return fechaItem >= fixfechainicio && fechaItem <= fechaFin;
       });
     
-    console.log(fechaInicio)
-    console.log(elementosFiltrados)
+  
     setdatos_linea(elementosFiltrados)
     };dataget();
   }, [startDate,endDate]); // to avoid infinite loop
@@ -267,8 +270,8 @@ function Areatrescuatro() {
         <Container>
           <Titulo>Imagenes y Datos Area Niño 3 + 4</Titulo>
           <CuadroTexto> 
-            <Texto>Imagenes  y datos diarias de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N°). Fuente de datos: Copernicus CMEMS</Texto>
-             <Texto>Selecciona la fecha de la imagen que te gustaria ver.</Texto>
+            <Texto>Imagenes  y promedios diarios de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N°)</Texto>
+             <Texto>Selecciona las fechas que te gustaria ver. Fuente de datos: Copernicus.</Texto>
           </CuadroTexto>
 
           <Body>
