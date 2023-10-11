@@ -124,7 +124,7 @@ function Home() {
               <Listaitem>► Imagenes de Anomalia del Nivel del Mar frente a la Costa Peruana y el Pacifico Ecuatorial. </Listaitem>
             </Lista>
           <Texto>La fuente de datos para las imagenes y promedios proviene de distintas fuentes abiertas como Copernicus y NOAA.</Texto>
-          <Texto>Si deseas un analisis oceanografico o una elaboracion de aplicacion web - dashboard para areas especificas puedes contactarte a los
+          <Texto>Si deseas un analisis oceanografico o una elaboracion de aplicacion web - dashboard para areas especificas puedes contactarte al
             siguiente correo:
             aljes2310@gmail.com.
             </Texto>
