@@ -125,7 +125,7 @@ function Home() {
             </Lista>
           <Texto>La fuente de datos para las imagenes y promedios proviene de distintas fuentes abiertas como Copernicus y NOAA.</Texto>
           <Texto>Si deseas un analisis oceanografico o una elaboracion de aplicacion web - dashboard para areas especificas puedes contactarte a los
-            siguientes correos:<Space></Space> <Space></Space>licochea@lamolina.edu.pe, <Space></Space><Space></Space>
+            siguiente correo:
             aljes2310@gmail.com.
             </Texto>
         </CuadroTexto>
