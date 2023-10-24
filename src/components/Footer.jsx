@@ -85,10 +85,10 @@ function Footer() {
         <Pie>
             <Texto>
                 <Descripcion>
-                Web app realizada por Alfredo Alvarado
+                Web app developed by Alfredo Alvarado
                 </Descripcion>
                 <Descripcion>
-                <span style={{ fontWeight: 'bold' }}>Tecnologias</span>: Python, React, Supabase, Vercel
+                <span style={{ fontWeight: 'bold' }}>Tech Stack</span>: Python, React, Supabase, Vercel
                 </Descripcion>
             </Texto>
 
