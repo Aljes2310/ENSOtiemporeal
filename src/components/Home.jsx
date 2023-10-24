@@ -116,16 +116,20 @@ function Home() {
       <Container>
         <Titulo> Acerca de esta pagina</Titulo>
         <CuadroTexto>
-          <Texto>Esta aplicacion web te proporciona imagenes diarias y promedios de parametros oceanograficos para hacer seguimiento del Evento Niño.</Texto>
+          <Texto> This web app shows you diary images and averages of oceanographic parameters 
+            to monitor El Niño Event.</Texto>
           <Lista>
-              Podras encontrar lo siguiente:
-              <Listaitem>► Imagenes y promedios de Temperatura del Mar del Area Niño 1+2 (80W°-90°W, 10°S-0°) y Area Niño 3+4 (120W°-170°W, 5°S-5°N°). </Listaitem>
-              <Listaitem>► Imagenes de Vientos (direccion y magnitud) frente a la Costa Peruana y el Pacifico Ecuatorial. </Listaitem>
-              <Listaitem>► Imagenes de Anomalia del Nivel del Mar frente a la Costa Peruana y el Pacifico Ecuatorial. </Listaitem>
+              You can find the following sections:
+              <Listaitem>► Images of sea surface temperature and its average values in Niño Region 1+2 
+                (80W°-90°W, 10°S-0°) and Niño Region 3+4 (120W°-170°W, 5°S-5°N°). </Listaitem>
+              <Listaitem>► Winds plot along peruvian coast and Equatorial Pacific
+                </Listaitem>
+              <Listaitem>► Sea level Anomaly images in front of Peru and Equatorial Pacific </Listaitem>
             </Lista>
-          <Texto>La fuente de datos para las imagenes y promedios proviene de distintas fuentes abiertas como Copernicus y NOAA.</Texto>
-          <Texto>Si deseas un analisis oceanografico o una elaboracion de aplicacion web - dashboard para areas especificas puedes contactarte al
-            siguiente correo:
+          <Texto>Data source to create images and calculate means of temperature were from 
+            open sources data like Copernicus and NOAA.</Texto>
+          <Texto>If you want an oceanographic analysis or web app/dashboard for specific areas you cant contact me
+            through the following email:
             aljes2310@gmail.com.
             </Texto>
         </CuadroTexto>

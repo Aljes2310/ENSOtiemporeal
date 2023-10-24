@@ -268,17 +268,17 @@ function Areatrescuatro() {
   return (
     <Section id="areatrescuatro">
         <Container>
-          <Titulo>Imagenes y Datos Area Niño 3 + 4</Titulo>
+          <Titulo>Temperature Images and Means of Niño Region 3+4</Titulo>
           <CuadroTexto> 
-            <Texto>Imagenes  y promedios diarios de TSM del area niño 3+4 (120W°-170°W, 5°S-5°N°)</Texto>
-             <Texto>Selecciona las fechas que te gustaria ver. Fuente de datos: Copernicus.</Texto>
+            <Texto>Images and daily averages of SST of the Niño Region 3+4 (120W°-170°W, 5°S-5°N°)</Texto>
+             <Texto>Select the dates you would like to see. Data source: Copernicus.</Texto>
           </CuadroTexto>
 
           <Body>
               <Columnamapa>
                 <DatePicker dateFormat="yyyy/MM/dd" className="custom-date-picker"
                   selected={mapaDate} onChange={(date) => SetmapaDate(date)}/>
-              <Promedio> <span style={{color:"red"}}>Promedio : </span> 
+              <Promedio> <span style={{color:"red"}}>Mean : </span> 
               {Math.round(datos_mapa.sst*100)/100} °C</Promedio>
                 <Mapa src={datos_mapa.url}></Mapa>
               </Columnamapa>

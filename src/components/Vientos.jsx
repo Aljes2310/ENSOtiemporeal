@@ -159,10 +159,10 @@ function Vientos() {
   return (
     <Section id="vientos">
         <Container>
-          <Titulo>Imagenes Vientos</Titulo>
+          <Titulo>Winds Images</Titulo>
           <CuadroTexto> 
-            <Texto>Imagenes diarias de Vientos a 10m en el Pacifico Ecuatorial y frente a la Costa Peruana</Texto>
-             <Texto>Selecciona las fechas que te gustaria ver. Fuente de datos: NOAA.</Texto>
+            <Texto>Daily images of Winds at 10m in front of Peruvian Coast and Equatorial Pacific areas</Texto>
+             <Texto>Select the dates you would like to see. Data source: NOAA.</Texto>
           </CuadroTexto>
 
           <Body>

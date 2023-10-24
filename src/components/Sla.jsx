@@ -160,10 +160,10 @@ function SLA() {
   return (
     <Section id="sla">
         <Container>
-          <Titulo>Imagenes Anomalia del Nivel del Mar (SLA)</Titulo>
+          <Titulo>Sea Level Anomaly Images</Titulo>
           <CuadroTexto> 
-            <Texto>Imagenes diarias de SLA en el Pacifico Ecuatorial y frente a la Costa Peruana</Texto>
-             <Texto>Selecciona las fechas que te gustaria ver. Fuente de datos: NOAA.</Texto>
+            <Texto>Daily images of SLA in front of Peruvian Coast and Equatorial Pacific areas</Texto>
+             <Texto>Select the dates you would like to see. Data source: NOAA.</Texto>
           </CuadroTexto>
 
           <Body>

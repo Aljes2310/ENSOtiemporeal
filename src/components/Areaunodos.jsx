@@ -272,10 +272,10 @@ function Areaunodos() {
   return (
     <Section id="areaunodos">
         <Container>
-          <Titulo>Imagenes y Datos Area Niño 1 + 2</Titulo>
+          <Titulo>Temperature Images and Means of Niño Region 1+2</Titulo>
           <CuadroTexto> 
-            <Texto>Imagenes  y promedios diarios de TSM del area niño 1+2 (80W°-90°W, 10°S-0°).</Texto>
-             <Texto>Selecciona las fechas que te gustaria ver. Fuente de datos: Copernicus.</Texto>
+            <Texto>Images and daily averages of SST of the Niño Region 1+2 (80W°-90°W, 10°S-0°).</Texto>
+             <Texto>Select the dates you would like to see. Data source: Copernicus.</Texto>
           </CuadroTexto>
 
 

@@ -64,17 +64,17 @@ function Navbar() {
 
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
             <li onClick={removeActive}>
-              <Link to='/areaunodos' className={`${styles.navLink}`}>Area Niño 1+2</Link>
+              <Link to='/areaunodos' className={`${styles.navLink}`}>Niño Region 1+2</Link>
             </li>
             <li onClick={removeActive}>
-              <Link to='/areatrescuatro' className={`${styles.navLink}`}>Area Niño 3+4</Link>
+              <Link to='/areatrescuatro' className={`${styles.navLink}`}>Niño Region 3+4</Link>
             </li>
       
             <li onClick={removeActive}>
-              <Link to='/vientos' className={`${styles.navLink}`}>Vientos</Link>
+              <Link to='/vientos' className={`${styles.navLink}`}>Winds</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='/sla' className={`${styles.navLink}`}>Anomalia de Nivel del Mar</a>
+              <a href='/sla' className={`${styles.navLink}`}>Sea level Anomaly</a>
             </li>
           </ul>
 
