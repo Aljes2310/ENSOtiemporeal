@@ -114,7 +114,7 @@ function Home() {
   return (
     <Section>
       <Container>
-        <Titulo> Acerca de esta pagina</Titulo>
+        <Titulo> About this page</Titulo>
         <CuadroTexto>
           <Texto> This web app shows you diary images and averages of oceanographic parameters 
             to monitor El Niño Event.</Texto>
