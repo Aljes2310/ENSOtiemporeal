@@ -137,7 +137,7 @@ function SLA() {
     let tzoffset = (new Date()).getTimezoneOffset() * 60000
     const formattedDate = (new Date(mapaDate-tzoffset)).toISOString().substring(0, 10)  
 
-    const resp = await supabase.from('imagenes_sla').select().eq('time',formattedDate)
+    const resp = await supabase.from('salinity').select().eq('time',formattedDate)
     console.log(resp)
     const dato_exacto=resp["data"][0]
     
@@ -160,10 +160,10 @@ function SLA() {
   return (
     <Section id="sla">
         <Container>
-          <Titulo>Sea Level Anomaly Images</Titulo>
+          <Titulo>Salinity Maps</Titulo>
           <CuadroTexto> 
-            <Texto>Daily images of SLA in front of Peruvian Coast and Equatorial Pacific areas</Texto>
-             <Texto>Select the dates you would like to see. Data source: NOAA.</Texto>
+            <Texto>Daily images of Sea Salinity in front of Peruvian Coast</Texto>
+             <Texto>Select the dates you would like to see. Data source: Copernicus.</Texto>
           </CuadroTexto>
 
           <Body>
@@ -171,7 +171,7 @@ function SLA() {
                   selected={mapaDate} onChange={(date) => SetmapaDate(date)}/>
               <Filamapa>
                 <Mapa src={datos_mapa.url_peru}></Mapa>
-                <Mapa_pacifico src={datos_mapa.url_pacific}></Mapa_pacifico>
+                <Mapa_pacifico src={datos_mapa.url_callao}></Mapa_pacifico>
 
                 </Filamapa>
           </Body>

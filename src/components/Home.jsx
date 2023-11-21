@@ -124,7 +124,7 @@ function Home() {
                 (80W°-90°W, 10°S-0°) and Niño Region 3+4 (120W°-170°W, 5°S-5°N°). </Listaitem>
               <Listaitem>► Winds plot along peruvian coast and Equatorial Pacific
                 </Listaitem>
-              <Listaitem>► Sea level Anomaly images in front of Peru and Equatorial Pacific </Listaitem>
+              <Listaitem>► Sea Salinity images in front of Peru</Listaitem>
             </Lista>
           <Texto>Data source to create images and calculate means of temperature were from 
             open sources data like Copernicus and NOAA.</Texto>
