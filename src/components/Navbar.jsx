@@ -74,7 +74,7 @@ function Navbar() {
               <Link to='/vientos' className={`${styles.navLink}`}>Winds</Link>
             </li>
             <li onClick={removeActive}>
-              <a href='/sla' className={`${styles.navLink}`}>Sea level Anomaly</a>
+              <a href='/sla' className={`${styles.navLink}`}>Salinity</a>
             </li>
           </ul>
 
