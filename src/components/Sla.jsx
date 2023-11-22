@@ -124,7 +124,7 @@ width: 700px;
 
 function SLA() {
   const today= new Date()
-  const startdatedefault= today.setDate(today.getDate()-1)
+  const startdatedefault= today.setDate(today.getDate())
   //fecha hook
   const [mapaDate, SetmapaDate] = useState(startdatedefault);
   const [datos_mapa, setdatos_mapa]=useState([]);
