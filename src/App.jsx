@@ -14,7 +14,7 @@ import Sla from "./components/Sla";
 function App() {
 
   return (
-    <BrowserRouter>
+    /* <BrowserRouter>
       <Navbar></Navbar>
       <Routes>
 
@@ -25,7 +25,9 @@ function App() {
         <Route path="/sla" element={<Sla/>}></Route>
       </Routes>
      <Footer></Footer>
- </BrowserRouter>
+ </BrowserRouter> */
+
+    <div>Under maintenance</div>
   )
 }
 
